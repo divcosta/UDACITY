@@ -1,0 +1,138 @@
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
+header {
+    display: flex;
+    flex: wrap;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.div-logo {
+    width: 30%;
+}
+
+.title {
+    width: 70%;
+}
+
+.header {
+    border-bottom: 1px solid #eee;
+    background-color: #fcfcfc;
+}
+
+h5 {
+    font-size: 150%;
+    text-align: right;
+    color: #252166;
+}
+
+.experience h2 {
+    color: #525164;
+}
+
+.overview {
+    padding: 0 10px 5px 10px;
+}
+
+.education {
+    background-color: #f5f4f4;
+    border-radius: 10px;
+}
+
+.professional {
+    background-color: 
+}
+
+.menu {
+    background: #485563;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.menu ul {
+    width: 100%;
+}
+
+.menu ul li a {
+    color: #fafafa;
+}
+
+.menu li {
+    font-size: 150%;
+    float: left;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+.logo {
+    border-radius: 50%;
+    margin-top: 20px;
+    height: 50px;
+}
+
+.skills h2 {
+    text-align: center;
+    color: #525164;
+}
+
+.title h1,
+.title h4 {
+    text-align: right;
+    color: rgb(77, 77, 77);
+    padding-bottom: 10px;
+}
+
+.title,a:hover{
+    cursor: pointer;
+    color: #fff;
+}
+
+.title a {
+    text-transform: none;
+    color: rgb(77, 77, 77);
+}
+
+figcaption {
+    font-size: 80%;
+    text-align: center;
+    font-style: italic;
+}
+
+.experience,
+.education,
+.skills {
+    text-align: center;
+}
+
+hr {
+    width: 50%;
+}
+
+footer {
+    background-color: #bbb;
+    font-size: 150%;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+}
+
+.modal-title {
+    text-align: left;
+}
+
+.modal-content {
+    font-size: 130%;
+}

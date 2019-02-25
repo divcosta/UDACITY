@@ -1,0 +1,337 @@
+/* Nexus 5*/
+
+@media screen and (max-width: 360px) {
+    html,
+    body,
+    header,
+    section,
+    footer {
+        width: 100%;
+    }
+
+    .logo { 
+        height: 40px;
+    }
+
+    h1 {
+        font-size: 250%;
+    }
+
+    .col-md-6 {
+        margin-top: 0;
+    }
+
+    h2 {
+        font-size: 180%;
+        text-align: center;
+        color: rgb(77, 77, 77)
+    }
+
+    h3 {
+        font-size: 120%;
+    }
+
+    .title h2 {
+        margin-top: -10px;
+    }
+
+    .title {
+        width: 70%;
+        padding-right: 15px;
+        font-size: 80%;
+        margin-top: 10px;
+    }
+
+    .professional {
+        padding: 0 10px;
+    }
+
+    .menu {
+        height: 40px;
+        font-size: 75%;
+    }
+
+    .menu ul {
+        padding: 10px 10px 10px 20px;
+    }
+
+    .overview,
+    .embraer,
+    .dassault,
+    .education {
+        text-align: center;
+        font-size: 120%;
+    }
+
+    .dassault img,
+    .embraer img {
+        padding: 20px 30px 10px 30px;
+    }
+
+    .embraer,
+    .dassault {
+        padding: 10px;
+    }
+
+    .education {
+        padding: 10px 0 20px 0;
+        margin-bottom: 20px;
+    }
+
+    .logo-udacity,
+    .logo-etep {
+        padding: 10px 30px;
+    }
+
+    .udacity,
+    .etep {
+        margin-top: 20px;
+    }
+
+    .education hr {
+        border-top: 1px solid #3c3d85;
+    }
+
+    hr {
+        border-top: 1px solid #ccc;
+    }
+
+    .logo-skills img {
+        height: 180px;
+        margin: 0 auto 0 auto;
+    }
+
+    .logo-skills {
+        margin: 30px auto 30px auto;
+    }
+
+    .figcaption {
+        margin-top: 10px;
+    }
+
+    figure {
+        margin-bottom: 10px;
+    }
+
+    footer {
+        margin-top: 25px;
+        font-size: 120%;
+        line-height: 40px;
+    }
+
+    .modal-content {
+    font-size: 150%;
+    }
+
+}
+
+
+/* IPad */
+@media only screen and (min-width: 361px) and (max-width: 768px) {
+    
+    .logo {
+        height: 60px;
+    }
+    
+    .experience,
+    .education,
+    .skills {
+        text-align: center;
+    }
+
+    h4 {
+        font-size: 160%;
+    }
+
+    h3 {
+        font-size: 140%;
+    }
+
+    h2 {
+        font-size: 200%;
+        text-align: center;
+        color: rgb(77, 77, 77)
+    }
+
+    hr {
+        border-top: 1px solid #ccc;
+    }
+
+    .menu {
+        height: 50px;
+        padding-top: 10px;
+    }
+
+    .skills h2 {
+        font-size: 300%;
+    }
+    
+    .experience,
+    .education {
+        font-size: 150%;
+    }
+
+    .education hr {
+        border-top: 1px solid #3c3d85;
+    }
+
+    .img-responsive {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .overview,
+    .embraer,
+    .dassault,
+    .education {
+        text-align: center;
+    }
+
+    .dassault {
+        margin: 30px 0 50px 0;
+    }
+
+    .education h2 {
+        padding-top: 20px;
+    }
+
+    .etep:last-child,
+    .embraer:last-child {
+        padding-bottom: 20px;
+        margin-bottom: 20px
+    }
+
+    .logo-skills img {
+        height: 200px;
+        margin: 0 auto 0 auto;
+    }
+
+    .logo-skills {
+        margin: 30px auto 30px auto;
+    }
+
+    .skills figcaption {
+        margin-top: 10px;
+        font-size: 120%;
+    }
+
+    footer {
+        font-size: 130%;
+        line-height: 60px;
+    }
+
+    figcaption {
+        font-size: 90%;
+        margin-bottom: 10px;
+    }
+}
+
+
+/* Desktop */
+@media only screen and (min-width: 769px) {
+    
+    .logo {
+        height: 90px;
+    }
+
+    .title h1 {
+        font-size: 350%;
+    }
+
+    .title h4 {
+        font-size: 220%;
+    }
+
+    .menu {
+        height: 65px;
+        padding-top: 15px;
+        font-size: 120%;
+        color: #eee;
+    }
+
+    footer {
+        line-height: 45px;
+        font-size: 140%;
+    }
+
+    h2 {
+        font-size: 230%;
+    }
+
+    .skills h2 {
+        font-size: 250%;
+    } 
+
+    .logo-ds {
+        height: 100px;
+    }
+
+    .logo-emb {
+        height: 100px;
+    }
+
+    .experience p,
+    .education p {
+        font-size: 140%;
+    }
+
+    .experience h2,
+    .education h2 {
+        font-size: 300%;
+        padding-top: 30px;
+    }
+
+    .experience h3 {
+        font-size: 200%;
+    }
+
+    .dassault hr {
+        display: none;
+    }
+
+    .img-responsive {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 30px;
+    }
+    
+    .education hr {
+        border-top: 1px solid #3c3d85;
+    }
+
+    .education {
+        padding-bottom: 30px;
+    }
+
+    figcaption {
+        font-size: 120%;
+    }
+
+    .education figcaption,
+    .experience figcaption {
+        margin-bottom: 30px;
+    }
+
+    .education img {
+        height: 150px;
+    }
+
+    .skills {
+        margin-top: 30px;
+    }
+
+    .logo-skills img {
+        height: 200px;
+        margin: 0 auto 0 auto;
+    }
+
+    .logo-skills {
+        margin: 0 auto 30px auto;
+    }
+
+    .skills figcaption {
+        margin-top: 10px;
+        font-size: 110%;
+    }
+
+}
